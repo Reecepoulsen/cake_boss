@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="cost" table="x_1128327_cake_ingredient">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="name" table="x_1128327_cake_order">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Cost</column_label>
+        <column_label>Name</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,21 +21,21 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>false</display>
+        <display>true</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>cost</element>
+        <element>name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Currency">currency</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>20</max_length>
-        <name>x_1128327_cake_ingredient</name>
+        <max_length>250</max_length>
+        <name>x_1128327_cake_order</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -51,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>reece.poulsen</sys_created_by>
-        <sys_created_on>2024-03-02 05:56:58</sys_created_on>
-        <sys_name>Cost</sys_name>
+        <sys_created_on>2024-03-02 07:03:56</sys_created_on>
+        <sys_name>Name</sys_name>
         <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
-        <sys_update_name>sys_dictionary_x_1128327_cake_ingredient_cost</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1128327_cake_order_name</sys_update_name>
         <sys_updated_by>reece.poulsen</sys_updated_by>
-        <sys_updated_on>2024-03-02 05:56:58</sys_updated_on>
+        <sys_updated_on>2024-03-02 07:04:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

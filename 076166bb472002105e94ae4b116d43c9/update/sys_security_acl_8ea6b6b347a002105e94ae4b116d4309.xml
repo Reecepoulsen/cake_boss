@@ -3,7 +3,9 @@
         <active>true</active>
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
-        <condition/>
+        <condition table="x_1128327_cake_order">state!=40^EQ<item display_value="Filled" endquery="false" field="state" goto="false" newquery="false" operator="!=" or="false" value="40"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
         <description>Default access control on x_1128327_cake_order</description>
         <local_or_existing>Local</local_or_existing>
         <name>x_1128327_cake_order</name>
@@ -14,14 +16,14 @@
         <sys_created_by>reece.poulsen</sys_created_by>
         <sys_created_on>2024-03-02 05:54:19</sys_created_on>
         <sys_id>8ea6b6b347a002105e94ae4b116d4309</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>x_1128327_cake_order</sys_name>
         <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
         <sys_update_name>sys_security_acl_8ea6b6b347a002105e94ae4b116d4309</sys_update_name>
         <sys_updated_by>reece.poulsen</sys_updated_by>
-        <sys_updated_on>2024-03-02 05:54:19</sys_updated_on>
+        <sys_updated_on>2024-03-02 06:52:13</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

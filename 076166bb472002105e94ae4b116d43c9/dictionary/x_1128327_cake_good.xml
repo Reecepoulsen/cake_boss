@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="3e66767347a002105e94ae4b116d43ce" label="Good" max_length="40" name="x_1128327_cake_good" type="collection">
         <element label="Image" max_length="40" name="image" type="user_image"/>
-        <element label="Name" max_length="250" name="name" type="string"/>
+        <element display="true" label="Name" max_length="250" name="name" type="string"/>
         <element label="Preparation time" max_length="40" name="preparation_time" type="glide_duration"/>
-        <element label="Price" max_length="20" name="price" type="currency"/>
-        <element label="Recipe" max_length="40" name="recipe" type="string"/>
-        <element choice="1" label="State" max_length="40" name="state" type="choice">
+        <element label="Price" max_length="20" name="price" type="price"/>
+        <element label="Recipe" max_length="4000" name="recipe" type="string"/>
+        <element choice="3" default="10" label="State" max_length="40" name="state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Draft" sequence="1" value="10"/>
                 <element inactive_on_update="false" label="Active" sequence="2" value="20"/>

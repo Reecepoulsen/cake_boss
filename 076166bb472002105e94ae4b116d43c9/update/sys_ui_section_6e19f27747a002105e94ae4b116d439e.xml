@@ -4,13 +4,13 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>reece.poulsen</sys_created_by>
-            <sys_created_on>2024-03-02 06:05:32</sys_created_on>
-            <sys_id>9239fa7747a002105e94ae4b116d4342</sys_id>
+            <sys_created_on>2024-03-02 06:35:32</sys_created_on>
+            <sys_id>351087ff47a002105e94ae4b116d43c9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1128327_cake_ingredient" sys_domain="global" view="Default view">6e19f27747a002105e94ae4b116d439e</sys_ui_section>
             <sys_updated_by>reece.poulsen</sys_updated_by>
-            <sys_updated_on>2024-03-02 06:05:32</sys_updated_on>
+            <sys_updated_on>2024-03-02 06:35:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,27 +18,27 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>reece.poulsen</sys_created_by>
-            <sys_created_on>2024-03-02 06:05:32</sys_created_on>
-            <sys_id>1639fa7747a002105e94ae4b116d4342</sys_id>
+            <sys_created_on>2024-03-02 06:35:32</sys_created_on>
+            <sys_id>b51087ff47a002105e94ae4b116d43c9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1128327_cake_ingredient" sys_domain="global" view="Default view">6e19f27747a002105e94ae4b116d439e</sys_ui_section>
             <sys_updated_by>reece.poulsen</sys_updated_by>
-            <sys_updated_on>2024-03-02 06:05:32</sys_updated_on>
+            <sys_updated_on>2024-03-02 06:35:32</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cost</element>
+            <element>price</element>
             <position>2</position>
             <sys_created_by>reece.poulsen</sys_created_by>
-            <sys_created_on>2024-03-02 06:05:32</sys_created_on>
-            <sys_id>9639fa7747a002105e94ae4b116d4342</sys_id>
+            <sys_created_on>2024-03-02 06:35:32</sys_created_on>
+            <sys_id>391087ff47a002105e94ae4b116d43c9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1128327_cake_ingredient" sys_domain="global" view="Default view">6e19f27747a002105e94ae4b116d439e</sys_ui_section>
             <sys_updated_by>reece.poulsen</sys_updated_by>
-            <sys_updated_on>2024-03-02 06:05:32</sys_updated_on>
+            <sys_updated_on>2024-03-02 06:35:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>reece.poulsen</sys_created_by>
-            <sys_created_on>2024-03-02 06:05:32</sys_created_on>
-            <sys_id>1a39fa7747a002105e94ae4b116d4342</sys_id>
+            <sys_created_on>2024-03-02 06:35:32</sys_created_on>
+            <sys_id>b91087ff47a002105e94ae4b116d43c9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1128327_cake_ingredient" sys_domain="global" view="Default view">6e19f27747a002105e94ae4b116d439e</sys_ui_section>
             <sys_updated_by>reece.poulsen</sys_updated_by>
-            <sys_updated_on>2024-03-02 06:05:32</sys_updated_on>
+            <sys_updated_on>2024-03-02 06:35:32</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>image</element>
             <position>4</position>
             <sys_created_by>reece.poulsen</sys_created_by>
-            <sys_created_on>2024-03-02 06:05:32</sys_created_on>
-            <sys_id>9a39fa7747a002105e94ae4b116d4342</sys_id>
+            <sys_created_on>2024-03-02 06:35:32</sys_created_on>
+            <sys_id>3d1087ff47a002105e94ae4b116d43c9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1128327_cake_ingredient" sys_domain="global" view="Default view">6e19f27747a002105e94ae4b116d439e</sys_ui_section>
             <sys_updated_by>reece.poulsen</sys_updated_by>
-            <sys_updated_on>2024-03-02 06:05:32</sys_updated_on>
+            <sys_updated_on>2024-03-02 06:35:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
