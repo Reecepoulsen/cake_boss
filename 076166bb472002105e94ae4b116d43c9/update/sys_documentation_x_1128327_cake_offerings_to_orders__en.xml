@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="offerings" label="Offerings" language="en" table="x_1128327_cake_order">
+    <sys_documentation element="" label="Offerings to Orders" language="en" table="x_1128327_cake_offerings_to_orders">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>offerings</element>
+            <element/>
             <help/>
             <hint/>
-            <label>Offerings</label>
+            <label>Offerings to Orders</label>
             <language>en</language>
-            <name>x_1128327_cake_order</name>
-            <plural>Offerings</plural>
+            <name>x_1128327_cake_offerings_to_orders</name>
+            <plural>Offerings to Orders</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>reece.poulsen</sys_created_by>
-            <sys_created_on>2024-03-02 06:03:46</sys_created_on>
+            <sys_created_on>2024-03-05 05:43:26</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Offerings</sys_name>
+            <sys_name>Offerings to Orders</sys_name>
             <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
             <sys_policy/>
             <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
-            <sys_update_name>sys_documentation_x_1128327_cake_order_offerings_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_1128327_cake_offerings_to_orders__en</sys_update_name>
             <sys_updated_by>reece.poulsen</sys_updated_by>
-            <sys_updated_on>2024-03-02 06:03:46</sys_updated_on>
+            <sys_updated_on>2024-03-05 05:43:26</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

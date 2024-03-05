@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9331927447b002105e94ae4b116d43fc" label="Ingredients to Goods" max_length="40" name="x_1128327_cake_ingredients_to_goods" type="collection">
+        <element label="Good" max_length="32" name="good" read_only="true" reference="x_1128327_cake_good" type="reference"/>
+        <element label="Ingredient" mandatory="true" max_length="32" name="ingredient" reference="x_1128327_cake_ingredient" type="reference"/>
+        <element label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
+        <index name="index">
+            <element name="good"/>
+        </index>
+        <index name="index2">
+            <element name="ingredient"/>
+        </index>
+    </element>
+</database>
