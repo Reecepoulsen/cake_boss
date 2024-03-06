@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="55901a3447b002105e94ae4b116d4379" label="Offerings to Orders" max_length="40" name="x_1128327_cake_offerings_to_orders" type="collection">
-        <element label="Offering" mandatory="true" max_length="32" name="offering" reference="x_1128327_cake_offering" type="reference"/>
-        <element label="Order" max_length="32" name="order" read_only="true" reference="x_1128327_cake_order" type="reference"/>
+        <element label="Offering" mandatory="true" max_length="32" name="offering" reference="x_1128327_cake_offering" reference_cascade_rule="delete" type="reference"/>
+        <element label="Order" max_length="32" name="order" read_only="true" reference="x_1128327_cake_order" reference_cascade_rule="delete" type="reference"/>
         <element label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
         <index name="index">
             <element name="offering"/>

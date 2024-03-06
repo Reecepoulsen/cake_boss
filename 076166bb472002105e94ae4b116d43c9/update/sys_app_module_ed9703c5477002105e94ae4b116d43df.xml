@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Cake Boss">e66bf63b47a002105e94ae4b116d43e5</application>
+        <assessment/>
+        <device_type/>
+        <filter table="sys_properties">nameSTARTSWITHx_1128327_cake.^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value="x_1128327_cake."/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint>Settings for the Cake Boss App</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Settings</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sys_properties</name>
+        <order>0</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1128327_cake.user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>reece.poulsen</sys_created_by>
+        <sys_created_on>2024-03-06 04:21:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ed9703c5477002105e94ae4b116d43df</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Settings</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
+        <sys_update_name>sys_app_module_ed9703c5477002105e94ae4b116d43df</sys_update_name>
+        <sys_updated_by>reece.poulsen</sys_updated_by>
+        <sys_updated_on>2024-03-06 04:30:12</sys_updated_on>
+        <timeline_page/>
+        <title>Settings</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

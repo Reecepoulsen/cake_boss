@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="aa9cfe09473002105e94ae4b116d4398" label="Add-on" max_length="40" name="x_1128327_cake_add_on" type="collection">
+        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Price" max_length="20" name="price" type="price"/>
+        <element choice="3" default="10" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="1" value="10"/>
+                <element inactive_on_update="false" label="Active" sequence="2" value="20"/>
+                <element inactive_on_update="false" label="Retired" sequence="3" value="30"/>
+            </choice>
+        </element>
+    </element>
+</database>
