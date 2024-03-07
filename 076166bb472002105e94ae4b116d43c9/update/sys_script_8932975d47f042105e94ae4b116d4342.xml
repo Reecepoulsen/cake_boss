@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1128327_cake_ingredients_to_goods</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Good M2M - Add Ingredient Cost</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Get all ingredients for this good
+    var goodGR = current.good.getRefRecord();
+    var ingredientsToGoodGR = new GlideRecord("x_1128327_cake_ingredients_to_goods");
+    ingredientsToGoodGR.addQuery("good", goodGR.getValue("sys_id"));
+    ingredientsToGoodGR.query();
+
+    // Calculate the ingredient cost of the good
+    var total = 0;
+    while (ingredientsToGoodGR.next()) {
+        var ingredientGR = ingredientsToGoodGR.ingredient.getRefRecord();
+        var price = parseFloat(ingredientGR.getValue("price"));
+        var quantity = ingredientsToGoodGR.getValue("quantity");
+        total += (price * quantity);
+    }
+
+    // Update the ingredient cost of the good
+    goodGR.ingredient_cost = total.toFixed(2);
+	goodGR.update();
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>reece.poulsen</sys_created_by>
+        <sys_created_on>2024-03-06 23:58:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8932975d47f042105e94ae4b116d4342</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Good M2M - Add Ingredient Cost</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
+        <sys_update_name>sys_script_8932975d47f042105e94ae4b116d4342</sys_update_name>
+        <sys_updated_by>reece.poulsen</sys_updated_by>
+        <sys_updated_on>2024-03-07 04:44:35</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=8932975d47f042105e94ae4b116d4342"/>
+</record_update>

@@ -2,7 +2,7 @@
     <element db_object_id="07dc7249473002105e94ae4b116d436c" label="Add-ons to Offerings" max_length="40" name="x_1128327_cake_add_ons_to_offerings" type="collection">
         <element label="Add-on" mandatory="true" max_length="32" name="add_on" reference="x_1128327_cake_add_on" reference_cascade_rule="delete" type="reference"/>
         <element label="Offering" max_length="32" name="offering" read_only="true" reference="x_1128327_cake_offering" reference_cascade_rule="delete" type="reference"/>
-        <element label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
+        <element label="Quantity" max_length="20" name="quantity" type="decimal"/>
         <index name="index">
             <element name="add_on"/>
         </index>

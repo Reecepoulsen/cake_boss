@@ -27,7 +27,7 @@
 
 	const newTotalPrice = (basePrice + deliveryPrice + additionalCost) - discountAmount;
 
-	g_form.setValue("total_price", newTotalPrice);
+	g_form.setValue("total_price", newTotalPrice.toFixed(2));
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>reece.poulsen</sys_created_by>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c7098af8477002105e94ae4b116d4304</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Order - Apply Discount Amount</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
         <sys_update_name>sys_script_client_c7098af8477002105e94ae4b116d4304</sys_update_name>
         <sys_updated_by>reece.poulsen</sys_updated_by>
-        <sys_updated_on>2024-03-05 05:10:43</sys_updated_on>
+        <sys_updated_on>2024-03-07 04:08:26</sys_updated_on>
         <table>x_1128327_cake_order</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

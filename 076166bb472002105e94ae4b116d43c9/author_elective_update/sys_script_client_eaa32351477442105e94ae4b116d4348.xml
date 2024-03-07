@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>ingredient_cost</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Good - Apply Ingredient Cost</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	
+	const ingredientCost = parseFloat(newValue);
+	const prepCost = parseFloat(g_form.getValue("preparation_cost"));
+
+	g_form.setValue("total_cost", ingredientCost + prepCost);
+	g_form.save();
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>reece.poulsen</sys_created_by>
+        <sys_created_on>2024-03-07 01:03:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eaa32351477442105e94ae4b116d4348</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Good - Apply Ingredient Cost</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
+        <sys_update_name>sys_script_client_eaa32351477442105e94ae4b116d4348</sys_update_name>
+        <sys_updated_by>reece.poulsen</sys_updated_by>
+        <sys_updated_on>2024-03-07 01:08:05</sys_updated_on>
+        <table>x_1128327_cake_good</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</application>
+        <file_path/>
+        <instance_id>1da02244dbbdb990ae4c9027c59619b6</instance_id>
+        <instance_name>dev181649</instance_name>
+        <name>sys_script_client_eaa32351477442105e94ae4b116d4348</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;ingredient_cost&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Good - Apply Ingredient Cost&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	
+	const ingredientCost = parseFloat(newValue);
+	const prepCost = parseFloat(g_form.getValue("preparation_cost"));
+
+	g_form.setValue("total_cost", ingredientCost + prepCost);
+	g_form.save();
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;reece.poulsen&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-07 01:03:36&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;eaa32351477442105e94ae4b116d4348&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Good - Apply Ingredient Cost&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Cake Boss" source="x_1128327_cake"&gt;076166bb472002105e94ae4b116d43c9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Cake Boss"&gt;076166bb472002105e94ae4b116d43c9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_eaa32351477442105e94ae4b116d4348&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;reece.poulsen&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-07 01:08:05&lt;/sys_updated_on&gt;&lt;table&gt;x_1128327_cake_good&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>277331601</payload_hash>
+        <record_name>Good - Apply Ingredient Cost</record_name>
+        <reverted_from/>
+        <source>144dfe7b47a002105e94ae4b116d4365</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>reece.poulsen</sys_created_by>
+        <sys_created_on>2024-03-07 01:08:05</sys_created_on>
+        <sys_id>b5152bd1477442105e94ae4b116d43a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e1674033c0000001</sys_recorded_at>
+        <sys_updated_by>reece.poulsen</sys_updated_by>
+        <sys_updated_on>2024-03-07 01:08:05</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>7d152bd139744210accc8a3ff14d29a6</update_guid>
+        <update_guid_history>7d152bd139744210accc8a3ff14d29a6:277331601,c5e46f911f744210c476c2941db887f6:-1727900013,7ec4a391a67442104312c5f2d1a66126:-151423880,40a4a391867442100062d407fb13e734:2146103133,d244e391b3744210e64792e9e77de167:-1761549013,5014e751e474421067673b56893891ea:1681256884</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>reece.poulsen</sys_created_by>
+        <sys_created_on>2024-03-07 01:09:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>993bc03edb8948e2a234c312dcba0c21</sys_id>
+        <sys_metadata>eaa32351477442105e94ae4b116d4348</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Good - Apply Ingredient Cost</sys_name>
+        <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
+        <sys_parent display_value="Good">3e66767347a002105e94ae4b116d43ce</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
+        <sys_scope_delete display_value="">2cffe21138ef46b8bf1e50f1e9ff8410</sys_scope_delete>
+        <sys_update_name>sys_script_client_eaa32351477442105e94ae4b116d4348</sys_update_name>
+        <sys_update_version display_value="sys_script_client_eaa32351477442105e94ae4b116d4348">b5152bd1477442105e94ae4b116d43a7</sys_update_version>
+        <sys_updated_by>reece.poulsen</sys_updated_by>
+        <sys_updated_on>2024-03-07 01:09:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

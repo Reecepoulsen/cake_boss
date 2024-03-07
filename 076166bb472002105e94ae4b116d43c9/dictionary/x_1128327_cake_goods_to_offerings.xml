@@ -2,7 +2,7 @@
     <element db_object_id="62a09e3447b002105e94ae4b116d434b" label="Goods to Offerings" max_length="40" name="x_1128327_cake_goods_to_offerings" type="collection">
         <element label="Good" mandatory="true" max_length="32" name="good" reference="x_1128327_cake_good" reference_cascade_rule="delete" type="reference"/>
         <element label="Offering" max_length="32" name="offering" read_only="true" reference="x_1128327_cake_offering" reference_cascade_rule="delete" type="reference"/>
-        <element label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
+        <element label="Quantity" max_length="20" name="quantity" type="decimal"/>
         <index name="index">
             <element name="good"/>
         </index>
