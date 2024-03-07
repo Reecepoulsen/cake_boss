@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="price_modifier" label="Price modifier" language="en" table="x_1128327_cake_offering">
+    <sys_documentation element="good_price_modifier" label="Good price modifier" language="en" table="x_1128327_cake_offering">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>price_modifier</element>
+            <element>good_price_modifier</element>
             <help/>
             <hint/>
-            <label>Price modifier</label>
+            <label>Good price modifier</label>
             <language>en</language>
             <name>x_1128327_cake_offering</name>
-            <plural>Price modifiers</plural>
+            <plural>Good price modifiers</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>reece.poulsen</sys_created_by>
-            <sys_created_on>2024-03-02 06:00:42</sys_created_on>
+            <sys_created_on>2024-03-07 04:58:54</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Price modifier</sys_name>
+            <sys_name>Good price modifier</sys_name>
             <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
             <sys_policy/>
             <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
-            <sys_update_name>sys_documentation_x_1128327_cake_offering_price_modifier_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_1128327_cake_offering_good_price_modifier_en</sys_update_name>
             <sys_updated_by>reece.poulsen</sys_updated_by>
-            <sys_updated_on>2024-03-02 06:00:42</sys_updated_on>
+            <sys_updated_on>2024-03-07 04:58:54</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

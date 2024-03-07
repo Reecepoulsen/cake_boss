@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="base_price" table="x_1128327_cake_offering">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="good_price" table="x_1128327_cake_offering">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Base price</column_label>
+        <column_label>Good price</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,7 +26,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>base_price</element>
+        <element>good_price</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -38,7 +38,7 @@
         <name>x_1128327_cake_offering</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -51,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>reece.poulsen</sys_created_by>
-        <sys_created_on>2024-03-02 06:00:42</sys_created_on>
-        <sys_name>Base price</sys_name>
+        <sys_created_on>2024-03-07 04:58:53</sys_created_on>
+        <sys_name>Good price</sys_name>
         <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
-        <sys_update_name>sys_dictionary_x_1128327_cake_offering_base_price</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1128327_cake_offering_good_price</sys_update_name>
         <sys_updated_by>reece.poulsen</sys_updated_by>
-        <sys_updated_on>2024-03-05 03:51:12</sys_updated_on>
+        <sys_updated_on>2024-03-07 05:00:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

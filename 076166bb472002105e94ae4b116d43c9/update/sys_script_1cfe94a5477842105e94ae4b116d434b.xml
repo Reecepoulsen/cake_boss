@@ -11,14 +11,14 @@
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_1128327_cake_ingredients_to_goods</collection>
+        <collection>x_1128327_cake_offerings_to_orders</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Good M2M - Calc Ingredient Cost</name>
+        <name>Order M2M - Calc Offering Price</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -29,43 +29,43 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
-    // Get all ingredients for this good
-    var goodGR = current.good.getRefRecord();
-    var ingredientsToGoodGR = new GlideRecord("x_1128327_cake_ingredients_to_goods");
-    ingredientsToGoodGR.addQuery("good", goodGR.getValue("sys_id"));
-    ingredientsToGoodGR.query();
+    // Get all offerings in this order
+    var orderGR = current.order.getRefRecord();
+    var offeringsToOrdersGR = new GlideRecord("x_1128327_cake_offerings_to_orders");
+    offeringsToOrdersGR.addQuery("order", orderGR.getValue("sys_id"));
+    offeringsToOrdersGR.query();
 
-    // Calculate the ingredient cost of the good
+    // Calculate the price of all offerings in this order
     var total = 0;
-    while (ingredientsToGoodGR.next()) {
-        var ingredientGR = ingredientsToGoodGR.ingredient.getRefRecord();
-        var price = parseFloat(ingredientGR.getValue("price"));
-        var quantity = ingredientsToGoodGR.getValue("quantity");
+    while (offeringsToOrdersGR.next()) {
+        var offeringGR = offeringsToOrdersGR.offering.getRefRecord();
+        var price = parseFloat(offeringGR.getValue("total_price"));
+        var quantity = offeringsToOrdersGR.getValue("quantity");
         total += (price * quantity);
     }
 
-    // Update the ingredient cost of the good
-    goodGR.ingredient_cost = total.toFixed(2);
-	goodGR.update();
+    // Update the base price of the order
+    orderGR.base_price = total.toFixed(2);
+	orderGR.update();
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>reece.poulsen</sys_created_by>
-        <sys_created_on>2024-03-06 23:58:36</sys_created_on>
+        <sys_created_on>2024-03-07 05:23:14</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>8932975d47f042105e94ae4b116d4342</sys_id>
-        <sys_mod_count>12</sys_mod_count>
-        <sys_name>Good M2M - Calc Ingredient Cost</sys_name>
+        <sys_id>1cfe94a5477842105e94ae4b116d434b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Order M2M - Calc Offering Price</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
-        <sys_update_name>sys_script_8932975d47f042105e94ae4b116d4342</sys_update_name>
+        <sys_update_name>sys_script_1cfe94a5477842105e94ae4b116d434b</sys_update_name>
         <sys_updated_by>reece.poulsen</sys_updated_by>
-        <sys_updated_on>2024-03-07 05:07:13</sys_updated_on>
+        <sys_updated_on>2024-03-07 05:30:18</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=8932975d47f042105e94ae4b116d4342"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=1cfe94a5477842105e94ae4b116d434b"/>
 </record_update>
