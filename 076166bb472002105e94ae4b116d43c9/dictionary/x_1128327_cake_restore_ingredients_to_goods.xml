@@ -3,5 +3,12 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=good" label="good" max_length="40" name="u_good" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=ingredient" label="ingredient" max_length="40" name="u_ingredient" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=quantity" label="quantity" max_length="40" name="u_quantity" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_created_by" label="sys_created_by" max_length="40" name="u_sys_created_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_created_on" label="sys_created_on" max_length="40" name="u_sys_created_on" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_id" label="sys_id" max_length="40" name="u_sys_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_mod_count" label="sys_mod_count" max_length="40" name="u_sys_mod_count" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_tags" label="sys_tags" max_length="40" name="u_sys_tags" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_updated_by" label="sys_updated_by" max_length="40" name="u_sys_updated_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_updated_on" label="sys_updated_on" max_length="40" name="u_sys_updated_on" type="string"/>
     </element>
 </database>

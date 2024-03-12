@@ -4,6 +4,13 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=good_price" label="good_price" max_length="40" name="u_good_price" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=good_price_modifier" label="good_price_modifier" max_length="40" name="u_good_price_modifier" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_created_by" label="sys_created_by" max_length="40" name="u_sys_created_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_created_on" label="sys_created_on" max_length="40" name="u_sys_created_on" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_id" label="sys_id" max_length="40" name="u_sys_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_mod_count" label="sys_mod_count" max_length="40" name="u_sys_mod_count" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_tags" label="sys_tags" max_length="40" name="u_sys_tags" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_updated_by" label="sys_updated_by" max_length="40" name="u_sys_updated_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_updated_on" label="sys_updated_on" max_length="40" name="u_sys_updated_on" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=total_price" label="total_price" max_length="40" name="u_total_price" type="string"/>
     </element>
 </database>

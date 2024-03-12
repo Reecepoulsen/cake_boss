@@ -8,42 +8,40 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Order - Apply Mileage to Delivery Price</name>
+        <name>Order - Apply Miles to Delivery Cost</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-   if (isLoading || newValue === '') {
-      return;
-   }
+    if (isLoading || newValue === '') {
+        return;
+    }
 
-	const p = new GlideAjax('GetPropertyAjax');
-	p.addParam('sysparm_name', 'getProperty');
-	p.addParam('sysparm_property', 'x_1128327_cake.cost_per_mile');
-	p.getXMLAnswer(getProperty);
+    var p = new GlideAjax('GetPropertyAjax');
+    p.addParam('sysparm_name', 'getProperty');
+    p.addParam('sysparm_property', 'x_1128327_cake.cost_per_mile');
+    p.getXMLAnswer(getProperty);
 
-	function getProperty(answer) {
-		g_form.clearMessages();
-		const costPerMile = parseFloat(answer);
-		const miles = parseFloat(newValue.toString().split(",").join(""));
-
-		g_form.setValue("delivery_price", (costPerMile * miles).toFixed(2).toString());
-	}
-   
+    function getProperty(answer) {
+        g_form.clearMessages();
+        var costPerMile = parseFloat(answer);
+        var miles = parseFloat(newValue.toString().split(",").join(""));
+        g_form.setValue("delivery_price", (costPerMile * miles).toFixed(2).toString());
+    }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>reece.poulsen</sys_created_by>
-        <sys_created_on>2024-03-05 05:23:38</sys_created_on>
+        <sys_created_on>2024-03-12 04:06:57</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>51bb4ebc477002105e94ae4b116d4303</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_name>Order - Apply Mileage to Delivery Price</sys_name>
+        <sys_id>0ddd3987477002105e94ae4b116d43e6</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Order - Apply Miles to Delivery Cost</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
-        <sys_update_name>sys_script_client_51bb4ebc477002105e94ae4b116d4303</sys_update_name>
+        <sys_update_name>sys_script_client_0ddd3987477002105e94ae4b116d43e6</sys_update_name>
         <sys_updated_by>reece.poulsen</sys_updated_by>
-        <sys_updated_on>2024-03-07 04:08:15</sys_updated_on>
+        <sys_updated_on>2024-03-12 04:33:31</sys_updated_on>
         <table>x_1128327_cake_order</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

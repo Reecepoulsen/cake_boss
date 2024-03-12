@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="662eea5a477002105e94ae4b116d4385" extends="sys_import_set_row" label="Restore Orders" max_length="40" name="x_1128327_cake_restore_orders" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=additional_cost" label="additional_cost" max_length="40" name="u_additional_cost" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=base_price" label="base_price" max_length="40" name="u_base_price" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=contact" label="contact" max_length="40" name="u_contact" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=delivery" label="delivery" max_length="40" name="u_delivery" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=delivery_address" label="delivery_address" max_length="40" name="u_delivery_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=delivery_price" label="delivery_price" max_length="40" name="u_delivery_price" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=discount_amount" label="discount_amount" max_length="40" name="u_discount_amount" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=due_at" label="due_at" max_length="40" name="u_due_at" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=miles" label="miles" max_length="40" name="u_miles" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="40" name="u_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=number" label="number" max_length="40" name="u_number" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=state" label="state" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_created_by" label="sys_created_by" max_length="40" name="u_sys_created_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_created_on" label="sys_created_on" max_length="40" name="u_sys_created_on" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_id" label="sys_id" max_length="40" name="u_sys_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_mod_count" label="sys_mod_count" max_length="40" name="u_sys_mod_count" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_tags" label="sys_tags" max_length="40" name="u_sys_tags" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_updated_by" label="sys_updated_by" max_length="40" name="u_sys_updated_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_updated_on" label="sys_updated_on" max_length="40" name="u_sys_updated_on" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=total_paid" label="total_paid" max_length="40" name="u_total_paid" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=total_price" label="total_price" max_length="40" name="u_total_price" type="string"/>
     </element>
