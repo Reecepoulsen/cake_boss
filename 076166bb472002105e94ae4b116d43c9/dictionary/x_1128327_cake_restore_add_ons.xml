@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b96de21a477002105e94ae4b116d4382" extends="sys_import_set_row" label="Restore Add-ons" max_length="40" name="x_1128327_cake_restore_add_ons" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=price" label="price" max_length="40" name="u_price" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=state" label="state" max_length="40" name="u_state" type="string"/>
+    </element>
+</database>

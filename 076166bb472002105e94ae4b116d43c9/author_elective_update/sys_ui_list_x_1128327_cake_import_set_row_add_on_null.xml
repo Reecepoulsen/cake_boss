@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_1128327_cake_import_set_row_add_on" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_name</element>
+            <list_id display_value="x_1128327_cake_import_set_row_add_on" element="NULL" name="x_1128327_cake_import_set_row_add_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7abbae16477002105e94ae4b116d4360</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>reece.poulsen</sys_created_by>
+            <sys_created_on>2024-03-09 23:31:24</sys_created_on>
+            <sys_id>babbae16477002105e94ae4b116d4361</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>reece.poulsen</sys_updated_by>
+            <sys_updated_on>2024-03-09 23:31:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>import_set_run</element>
+            <list_id display_value="x_1128327_cake_import_set_row_add_on" element="NULL" name="x_1128327_cake_import_set_row_add_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7abbae16477002105e94ae4b116d4360</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>reece.poulsen</sys_created_by>
+            <sys_created_on>2024-03-09 23:31:24</sys_created_on>
+            <sys_id>32bbae16477002105e94ae4b116d4362</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>reece.poulsen</sys_updated_by>
+            <sys_updated_on>2024-03-09 23:31:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>template_import_log</element>
+            <list_id display_value="x_1128327_cake_import_set_row_add_on" element="NULL" name="x_1128327_cake_import_set_row_add_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7abbae16477002105e94ae4b116d4360</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>reece.poulsen</sys_created_by>
+            <sys_created_on>2024-03-09 23:31:24</sys_created_on>
+            <sys_id>b2bbae16477002105e94ae4b116d4362</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>reece.poulsen</sys_updated_by>
+            <sys_updated_on>2024-03-09 23:31:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_price</element>
+            <list_id display_value="x_1128327_cake_import_set_row_add_on" element="NULL" name="x_1128327_cake_import_set_row_add_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7abbae16477002105e94ae4b116d4360</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>reece.poulsen</sys_created_by>
+            <sys_created_on>2024-03-09 23:31:24</sys_created_on>
+            <sys_id>36bbae16477002105e94ae4b116d4362</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>reece.poulsen</sys_updated_by>
+            <sys_updated_on>2024-03-09 23:31:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_state</element>
+            <list_id display_value="x_1128327_cake_import_set_row_add_on" element="NULL" name="x_1128327_cake_import_set_row_add_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7abbae16477002105e94ae4b116d4360</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>reece.poulsen</sys_created_by>
+            <sys_created_on>2024-03-09 23:31:24</sys_created_on>
+            <sys_id>b6bbae16477002105e94ae4b116d4362</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>reece.poulsen</sys_updated_by>
+            <sys_updated_on>2024-03-09 23:31:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1128327_cake_import_set_row_add_on</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>reece.poulsen</sys_created_by>
+            <sys_created_on>2024-03-09 23:31:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7abbae16477002105e94ae4b116d4360</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1128327_cake_import_set_row_add_on</sys_name>
+            <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
+            <sys_update_name>sys_ui_list_x_1128327_cake_import_set_row_add_on_null</sys_update_name>
+            <sys_updated_by>reece.poulsen</sys_updated_by>
+            <sys_updated_on>2024-03-09 23:31:24</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</application>
+        <file_path/>
+        <instance_id>1da02244dbbdb990ae4c9027c59619b6</instance_id>
+        <instance_name>dev181649</instance_name>
+        <name>sys_ui_list_x_1128327_cake_import_set_row_add_on_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_1128327_cake_import_set_row_add_on" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_name</element><list_id display_value="x_1128327_cake_import_set_row_add_on" element="NULL" name="x_1128327_cake_import_set_row_add_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7abbae16477002105e94ae4b116d4360</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>reece.poulsen</sys_created_by><sys_created_on>2024-03-09 23:31:24</sys_created_on><sys_id>babbae16477002105e94ae4b116d4361</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>reece.poulsen</sys_updated_by><sys_updated_on>2024-03-09 23:31:24</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>import_set_run</element><list_id display_value="x_1128327_cake_import_set_row_add_on" element="NULL" name="x_1128327_cake_import_set_row_add_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7abbae16477002105e94ae4b116d4360</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>reece.poulsen</sys_created_by><sys_created_on>2024-03-09 23:31:24</sys_created_on><sys_id>32bbae16477002105e94ae4b116d4362</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>reece.poulsen</sys_updated_by><sys_updated_on>2024-03-09 23:31:24</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>template_import_log</element><list_id display_value="x_1128327_cake_import_set_row_add_on" element="NULL" name="x_1128327_cake_import_set_row_add_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7abbae16477002105e94ae4b116d4360</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>reece.poulsen</sys_created_by><sys_created_on>2024-03-09 23:31:24</sys_created_on><sys_id>b2bbae16477002105e94ae4b116d4362</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>reece.poulsen</sys_updated_by><sys_updated_on>2024-03-09 23:31:24</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_price</element><list_id display_value="x_1128327_cake_import_set_row_add_on" element="NULL" name="x_1128327_cake_import_set_row_add_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7abbae16477002105e94ae4b116d4360</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>reece.poulsen</sys_created_by><sys_created_on>2024-03-09 23:31:24</sys_created_on><sys_id>36bbae16477002105e94ae4b116d4362</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>reece.poulsen</sys_updated_by><sys_updated_on>2024-03-09 23:31:24</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_state</element><list_id display_value="x_1128327_cake_import_set_row_add_on" element="NULL" name="x_1128327_cake_import_set_row_add_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7abbae16477002105e94ae4b116d4360</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>reece.poulsen</sys_created_by><sys_created_on>2024-03-09 23:31:24</sys_created_on><sys_id>b6bbae16477002105e94ae4b116d4362</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>reece.poulsen</sys_updated_by><sys_updated_on>2024-03-09 23:31:24</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_1128327_cake_import_set_row_add_on</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>reece.poulsen</sys_created_by><sys_created_on>2024-03-09 23:31:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7abbae16477002105e94ae4b116d4360</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1128327_cake_import_set_row_add_on</sys_name><sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package><sys_policy/><sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope><sys_update_name>sys_ui_list_x_1128327_cake_import_set_row_add_on_null</sys_update_name><sys_updated_by>reece.poulsen</sys_updated_by><sys_updated_on>2024-03-09 23:31:24</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>1719490035</payload_hash>
+        <record_name>Import Set Row: Add-on</record_name>
+        <reverted_from/>
+        <source>144dfe7b47a002105e94ae4b116d4365</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>reece.poulsen</sys_created_by>
+        <sys_created_on>2024-03-09 23:31:24</sys_created_on>
+        <sys_id>7abbae16477002105e94ae4b116d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e258e94330000001</sys_recorded_at>
+        <sys_updated_by>reece.poulsen</sys_updated_by>
+        <sys_updated_on>2024-03-09 23:31:24</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>3abbae16e4700210ff450a240f631e64</update_guid>
+        <update_guid_history>3abbae16e4700210ff450a240f631e64:1719490035</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>reece.poulsen</sys_created_by>
+        <sys_created_on>2024-03-09 23:38:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>62edc47df047417883ee48f374421ac4</sys_id>
+        <sys_metadata>7abbae16477002105e94ae4b116d4360</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1128327_cake_import_set_row_add_on</sys_name>
+        <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
+        <sys_parent display_value="">d21b6656477002105e94ae4b116d4336</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
+        <sys_scope_delete display_value="">2cffe21138ef46b8bf1e50f1e9ff8410</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_1128327_cake_import_set_row_add_on_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_1128327_cake_import_set_row_add_on_null">7abbae16477002105e94ae4b116d4364</sys_update_version>
+        <sys_updated_by>reece.poulsen</sys_updated_by>
+        <sys_updated_on>2024-03-09 23:38:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3abdae1a477002105e94ae4b116d4322" extends="sys_import_set_row" label="Restore Goods" max_length="40" name="x_1128327_cake_restore_goods" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ingredient_cost" label="ingredient_cost" max_length="40" name="u_ingredient_cost" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=preparation_cost" label="preparation_cost" max_length="40" name="u_preparation_cost" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=preparation_time" label="preparation_time" max_length="40" name="u_preparation_time" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=price" label="price" max_length="40" name="u_price" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=state" label="state" max_length="40" name="u_state" type="string"/>
+    </element>
+</database>

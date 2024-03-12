@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e5ad261a477002105e94ae4b116d43f0" extends="sys_import_set_row" label="Restore Contacts" max_length="40" name="x_1128327_cake_restore_contacts" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=customer" label="customer" max_length="40" name="u_customer" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=email" label="email" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=phone_number" label="phone_number" max_length="40" name="u_phone_number" type="string"/>
+    </element>
+</database>

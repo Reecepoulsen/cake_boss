@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d3dd2e96477002105e94ae4b116d43ab" extends="sys_import_set_row" label="Restore Ingredients" max_length="40" name="x_1128327_cake_restore_ingredients" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=price" label="price" max_length="40" name="u_price" type="string"/>
+    </element>
+</database>
