@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Ingredient">b30119da47c102105e94ae4b116d4391</ais_search_source>
+        <label>Ingredient</label>
+        <name>Ingredient</name>
+        <order>700</order>
+        <search_context_config display_value="Cake Boss AI Search Configuration">7d0155da1bc10210481537c3e4112779</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>reece.poulsen</sys_created_by>
+        <sys_created_on>2024-03-22 03:10:58</sys_created_on>
+        <sys_id>401119da47c102105e94ae4b116d43a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ingredient</sys_name>
+        <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
+        <sys_update_name>sys_search_filter_401119da47c102105e94ae4b116d43a3</sys_update_name>
+        <sys_updated_by>reece.poulsen</sys_updated_by>
+        <sys_updated_on>2024-03-22 03:10:58</sys_updated_on>
+    </sys_search_filter>
+</record_update>

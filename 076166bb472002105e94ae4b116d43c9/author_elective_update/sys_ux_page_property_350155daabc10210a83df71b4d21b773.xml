@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Main Configuration</description>
+        <name>chrome_main</name>
+        <page display_value="">f10155da29c10210653526e708813c83</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>reece.poulsen</sys_created_by>
+        <sys_created_on>2024-03-22 03:10:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>350155daabc10210a83df71b4d21b773</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_main</sys_name>
+        <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
+        <sys_update_name>sys_ux_page_property_350155daabc10210a83df71b4d21b773</sys_update_name>
+        <sys_updated_by>reece.poulsen</sys_updated_by>
+        <sys_updated_on>2024-03-22 03:10:51</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1128327_cake.f10155da29c10210653526e708813c83.root.chrome_main</unique_name>
+        <value>{&#13;
+  "maxCachedPageCount": 5,&#13;
+  "maxActivePageCount": 3,&#13;
+  "timeLeftWarning": 15&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</application>
+        <file_path/>
+        <instance_id>1da02244dbbdb990ae4c9027c59619b6</instance_id>
+        <instance_name>dev181649</instance_name>
+        <name>sys_ux_page_property_350155daabc10210a83df71b4d21b773</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Main Configuration</description><name>chrome_main</name><page display_value="">f10155da29c10210653526e708813c83</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>reece.poulsen</sys_created_by><sys_created_on>2024-03-22 03:10:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>350155daabc10210a83df71b4d21b773</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_main</sys_name><sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package><sys_policy/><sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope><sys_update_name>sys_ux_page_property_350155daabc10210a83df71b4d21b773</sys_update_name><sys_updated_by>reece.poulsen</sys_updated_by><sys_updated_on>2024-03-22 03:10:51</sys_updated_on><type>json</type><unique_name>x_1128327_cake.f10155da29c10210653526e708813c83.root.chrome_main</unique_name><value>{&#13;
+  "maxCachedPageCount": 5,&#13;
+  "maxActivePageCount": 3,&#13;
+  "timeLeftWarning": 15&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-181292950</payload_hash>
+        <record_name>chrome_main</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>reece.poulsen</sys_created_by>
+        <sys_created_on>2024-03-22 05:03:44</sys_created_on>
+        <sys_id>f7daa51e474502105e94ae4b116d438e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e648b25ec0000001</sys_recorded_at>
+        <sys_updated_by>reece.poulsen</sys_updated_by>
+        <sys_updated_on>2024-03-22 05:03:44</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>b7daa51e52450210868a6d1a77ff6a8e</update_guid>
+        <update_guid_history>b7daa51e52450210868a6d1a77ff6a8e:-181292950</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>reece.poulsen</sys_created_by>
+        <sys_created_on>2024-03-22 05:03:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>9c8b47e4680b4cc0aa2a406e30788400</sys_id>
+        <sys_metadata>350155daabc10210a83df71b4d21b773</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_main</sys_name>
+        <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
+        <sys_scope_delete display_value="">2cffe21138ef46b8bf1e50f1e9ff8410</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_350155daabc10210a83df71b4d21b773</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_350155daabc10210a83df71b4d21b773">f7daa51e474502105e94ae4b116d438e</sys_update_version>
+        <sys_updated_by>reece.poulsen</sys_updated_by>
+        <sys_updated_on>2024-03-22 05:03:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description>Profit Multiplier</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_1128327_cake.profit_multiplier</name>
+        <read_roles/>
+        <suffix>profit_multiplier</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>reece.poulsen</sys_created_by>
+        <sys_created_on>2024-03-06 04:18:46</sys_created_on>
+        <sys_id>3e074785477002105e94ae4b116d43b7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_1128327_cake.profit_multiplier</sys_name>
+        <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
+        <sys_update_name>sys_properties_3e074785477002105e94ae4b116d43b7</sys_update_name>
+        <sys_updated_by>reece.poulsen</sys_updated_by>
+        <sys_updated_on>2024-03-06 04:30:55</sys_updated_on>
+        <type>string</type>
+        <value>1.00</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=3e074785477002105e94ae4b116d43b7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</application>
+        <file_path/>
+        <instance_id>1da02244dbbdb990ae4c9027c59619b6</instance_id>
+        <instance_name>dev181649</instance_name>
+        <name>sys_properties_3e074785477002105e94ae4b116d43b7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Profit Multiplier</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>x_1128327_cake.profit_multiplier</name><read_roles/><suffix>profit_multiplier</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>reece.poulsen</sys_created_by><sys_created_on>2024-03-06 04:18:46</sys_created_on><sys_id>3e074785477002105e94ae4b116d43b7</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_1128327_cake.profit_multiplier</sys_name><sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package><sys_policy/><sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope><sys_update_name>sys_properties_3e074785477002105e94ae4b116d43b7</sys_update_name><sys_updated_by>reece.poulsen</sys_updated_by><sys_updated_on>2024-03-06 04:30:55</sys_updated_on><type>string</type><value>1.00</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=3e074785477002105e94ae4b116d43b7"/></record_update>]]></payload>
+        <payload_hash>-385544611</payload_hash>
+        <record_name>x_1128327_cake.profit_multiplier</record_name>
+        <reverted_from/>
+        <source>144dfe7b47a002105e94ae4b116d4365</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>reece.poulsen</sys_created_by>
+        <sys_created_on>2024-03-06 04:30:55</sys_created_on>
+        <sys_id>dbe9cf49477002105e94ae4b116d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e12075bf70000001</sys_recorded_at>
+        <sys_updated_by>reece.poulsen</sys_updated_by>
+        <sys_updated_on>2024-03-06 04:30:55</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>93e9cf495e7002100abb8b4211a0a943</update_guid>
+        <update_guid_history>93e9cf495e7002100abb8b4211a0a943:-385544611,a76783c5367002102a968710f29bc214:185759797,ad274f4505700210a7470e52e9fa9e98:285899258</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>reece.poulsen</sys_created_by>
+        <sys_created_on>2024-03-21 00:24:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>22404826917f48e2876ed5c3229cbc21</sys_id>
+        <sys_metadata>3e074785477002105e94ae4b116d43b7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1128327_cake.profit_multiplier</sys_name>
+        <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
+        <sys_scope_delete display_value="">2cffe21138ef46b8bf1e50f1e9ff8410</sys_scope_delete>
+        <sys_update_name>sys_properties_3e074785477002105e94ae4b116d43b7</sys_update_name>
+        <sys_update_version display_value="sys_properties_3e074785477002105e94ae4b116d43b7">dbe9cf49477002105e94ae4b116d4343</sys_update_version>
+        <sys_updated_by>reece.poulsen</sys_updated_by>
+        <sys_updated_on>2024-03-21 00:24:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="DELETE">
+        <active>true</active>
+        <api_name>x_1128327_cake.Audience for app cake-boss</api_name>
+        <description/>
+        <name>Audience for app cake-boss</name>
+        <role_names/>
+        <roles>89f57e3347a002105e94ae4b116d435c,cd06f27347a002105e94ae4b116d430f</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>reece.poulsen</sys_created_by>
+        <sys_created_on>2024-03-22 03:10:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7e0195da47c102105e94ae4b116d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app cake-boss</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
+        <sys_update_name>sys_ux_applicability_7e0195da47c102105e94ae4b116d437f</sys_update_name>
+        <sys_updated_by>reece.poulsen</sys_updated_by>
+        <sys_updated_on>2024-03-22 03:10:54</sys_updated_on>
+    </sys_ux_applicability>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</application>
+        <file_path/>
+        <instance_id>1da02244dbbdb990ae4c9027c59619b6</instance_id>
+        <instance_name>dev181649</instance_name>
+        <name>sys_ux_applicability_7e0195da47c102105e94ae4b116d437f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability"><sys_ux_applicability action="INSERT_OR_UPDATE"><active>true</active><api_name>x_1128327_cake.Audience for app cake-boss</api_name><description/><name>Audience for app cake-boss</name><role_names/><roles>89f57e3347a002105e94ae4b116d435c,cd06f27347a002105e94ae4b116d430f</roles><sys_class_name>sys_ux_applicability</sys_class_name><sys_created_by>reece.poulsen</sys_created_by><sys_created_on>2024-03-22 03:10:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7e0195da47c102105e94ae4b116d437f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Audience for app cake-boss</sys_name><sys_overrides/><sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package><sys_policy/><sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope><sys_update_name>sys_ux_applicability_7e0195da47c102105e94ae4b116d437f</sys_update_name><sys_updated_by>reece.poulsen</sys_updated_by><sys_updated_on>2024-03-22 03:10:54</sys_updated_on></sys_ux_applicability></record_update>]]></payload>
+        <payload_hash>-613308748</payload_hash>
+        <record_name>Audience for app cake-boss</record_name>
+        <reverted_from/>
+        <source>144dfe7b47a002105e94ae4b116d4365</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>reece.poulsen</sys_created_by>
+        <sys_created_on>2024-03-22 03:10:54</sys_created_on>
+        <sys_id>fa0195da47c102105e94ae4b116d4383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e6423d6a60000001</sys_recorded_at>
+        <sys_updated_by>reece.poulsen</sys_updated_by>
+        <sys_updated_on>2024-03-22 03:10:54</sys_updated_on>
+        <type>Audience</type>
+        <update_guid>320195daeec10210901c915b7c1f0983</update_guid>
+        <update_guid_history>320195daeec10210901c915b7c1f0983:-613308748</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>reece.poulsen</sys_created_by>
+        <sys_created_on>2024-03-22 05:03:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability">sys_ux_applicability</sys_db_object>
+        <sys_id>82b08e6946fe4c908c2a1c2acdd318f9</sys_id>
+        <sys_metadata>7e0195da47c102105e94ae4b116d437f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app cake-boss</sys_name>
+        <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
+        <sys_scope_delete display_value="">2cffe21138ef46b8bf1e50f1e9ff8410</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_7e0195da47c102105e94ae4b116d437f</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_7e0195da47c102105e94ae4b116d437f">fa0195da47c102105e94ae4b116d4383</sys_update_version>
+        <sys_updated_by>reece.poulsen</sys_updated_by>
+        <sys_updated_on>2024-03-22 05:03:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="beb9cd5247c102105e94ae4b116d43ed" label="Settings" max_length="40" name="x_1128327_cake_settings" type="collection">
+        <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Value" mandatory="true" max_length="40" name="value" type="string"/>
+    </element>
+</database>

@@ -15,12 +15,16 @@
 		return;
 	}
 	
-	const p = new GlideAjax('GetPropertyAjax');
-	p.addParam('sysparm_name', 'getProperty');
-	p.addParam('sysparm_property', 'x_1128327_cake.hourly_rate');
-	p.getXMLAnswer(getProperty);
+	const p = new GlideAjax('GetSettingAjax');
+	p.addParam('sysparm_name', 'getSetting');
+	p.addParam('sysparm_setting', 'Hourly rate');
+	p.getXMLAnswer(getSetting);
 
-	function getProperty(answer) {
+	function getSetting(answer) {
+		if (!answer) {
+			g_form.addErrorMessage("Unable to find the 'Hourly rate' setting to run preparation cost calculation");
+			return
+		}
 		const hourlyRate = parseFloat(answer);
 		
 		const prepDurationString = g_form.getValue("preparation_time");
@@ -32,17 +36,6 @@
 		const prepCost = (hourlyRate * totalHours).toFixed(2);
 		g_form.setValue("preparation_cost", prepCost);
 	}
-	
-	
-	
-// 	const basePrice = g_form.getValue("base_price") * 1;
-// 	const additionalCost = getPriceFromString(newValue);
-// 	const deliveryPrice = getPriceFromString(g_form.getValue("delivery_price"));
-// 	const discountAmount = getPriceFromString(g_form.getValue("discount_amount"));
-
-// 	const newTotalPrice = (basePrice + deliveryPrice + additionalCost) - discountAmount;
-
-// 	g_form.setValue("total_price", newTotalPrice);
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>reece.poulsen</sys_created_by>
@@ -50,7 +43,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0f6fdf1d473442105e94ae4b116d437d</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Good - Calc Preparation Cost</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
@@ -58,7 +51,7 @@
         <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
         <sys_update_name>sys_script_client_0f6fdf1d473442105e94ae4b116d437d</sys_update_name>
         <sys_updated_by>reece.poulsen</sys_updated_by>
-        <sys_updated_on>2024-03-07 01:10:21</sys_updated_on>
+        <sys_updated_on>2024-03-22 02:52:10</sys_updated_on>
         <table>x_1128327_cake_good</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

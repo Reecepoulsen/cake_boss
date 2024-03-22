@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>sys_ux_applicability sys_id for Workspace audience</description>
+        <name>wbApplicabilityConfigId</name>
+        <page display_value="Cake Boss">f10155da29c10210653526e708813c83</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>reece.poulsen</sys_created_by>
+        <sys_created_on>2024-03-22 03:10:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>710155dafcc10210eda369836b50cc73</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>wbApplicabilityConfigId</sys_name>
+        <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
+        <sys_update_name>sys_ux_page_property_710155dafcc10210eda369836b50cc73</sys_update_name>
+        <sys_updated_by>reece.poulsen</sys_updated_by>
+        <sys_updated_on>2024-03-22 03:10:54</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1128327_cake.f10155da29c10210653526e708813c83.root.wbApplicabilityConfigId</unique_name>
+        <value>7e0195da47c102105e94ae4b116d437f</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=710155dafcc10210eda369836b50cc73"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</application>
+        <file_path/>
+        <instance_id>1da02244dbbdb990ae4c9027c59619b6</instance_id>
+        <instance_name>dev181649</instance_name>
+        <name>sys_ux_page_property_710155dafcc10210eda369836b50cc73</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>sys_ux_applicability sys_id for Workspace audience</description><name>wbApplicabilityConfigId</name><page display_value="Cake Boss">f10155da29c10210653526e708813c83</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>reece.poulsen</sys_created_by><sys_created_on>2024-03-22 03:10:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>710155dafcc10210eda369836b50cc73</sys_id><sys_mod_count>1</sys_mod_count><sys_name>wbApplicabilityConfigId</sys_name><sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package><sys_policy/><sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope><sys_update_name>sys_ux_page_property_710155dafcc10210eda369836b50cc73</sys_update_name><sys_updated_by>reece.poulsen</sys_updated_by><sys_updated_on>2024-03-22 03:10:54</sys_updated_on><type>string</type><unique_name>x_1128327_cake.f10155da29c10210653526e708813c83.root.wbApplicabilityConfigId</unique_name><value>7e0195da47c102105e94ae4b116d437f</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=710155dafcc10210eda369836b50cc73"/></record_update>]]></payload>
+        <payload_hash>-2052028769</payload_hash>
+        <record_name>wbApplicabilityConfigId</record_name>
+        <reverted_from/>
+        <source>144dfe7b47a002105e94ae4b116d4365</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>reece.poulsen</sys_created_by>
+        <sys_created_on>2024-03-22 03:10:54</sys_created_on>
+        <sys_id>ba0195da47c102105e94ae4b116d4387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e6423d6ec0000001</sys_recorded_at>
+        <sys_updated_by>reece.poulsen</sys_updated_by>
+        <sys_updated_on>2024-03-22 03:10:54</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>720195dae6c1021021d6390f13a7d887</update_guid>
+        <update_guid_history>720195dae6c1021021d6390f13a7d887:-2052028769,ba0195da96c10210471a816a50e9a785:-360710730</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>reece.poulsen</sys_created_by>
+        <sys_created_on>2024-03-22 05:03:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>f05efc4015d04ce0a3d38ebb346429a4</sys_id>
+        <sys_metadata>710155dafcc10210eda369836b50cc73</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>wbApplicabilityConfigId</sys_name>
+        <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
+        <sys_scope_delete display_value="">2cffe21138ef46b8bf1e50f1e9ff8410</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_710155dafcc10210eda369836b50cc73</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_710155dafcc10210eda369836b50cc73">ba0195da47c102105e94ae4b116d4387</sys_update_version>
+        <sys_updated_by>reece.poulsen</sys_updated_by>
+        <sys_updated_on>2024-03-22 05:03:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
