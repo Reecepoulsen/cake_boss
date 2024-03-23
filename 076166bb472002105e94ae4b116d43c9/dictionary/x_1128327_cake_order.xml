@@ -7,7 +7,7 @@
         <element label="Delivery address" max_length="250" name="delivery_address" type="string"/>
         <element label="Delivery price" max_length="20" name="delivery_price" type="price"/>
         <element label="Discount amount" max_length="20" name="discount_amount" type="price"/>
-        <element label="Due at" mandatory="true" max_length="40" name="due_at" type="glide_date_time"/>
+        <element label="Due" mandatory="true" max_length="40" name="due_at" type="glide_date_time"/>
         <element label="Miles" max_length="20" name="miles" type="decimal"/>
         <element display="true" label="Name" mandatory="true" max_length="250" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
@@ -15,7 +15,6 @@
             <choice>
                 <element inactive_on_update="false" label="Draft" sequence="1" value="10"/>
                 <element inactive_on_update="false" label="Placed" sequence="2" value="20"/>
-                <element inactive_on_update="false" label="Due" sequence="3" value="30"/>
                 <element inactive_on_update="false" label="Filled" sequence="4" value="40"/>
                 <element inactive_on_update="false" label="Cancelled" sequence="5" value="50"/>
             </choice>

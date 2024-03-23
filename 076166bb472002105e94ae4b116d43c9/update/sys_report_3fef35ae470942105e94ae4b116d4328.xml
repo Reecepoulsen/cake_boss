@@ -46,8 +46,8 @@
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
-        <field_list>name,good_price,add_on_price,total_price</field_list>
-        <filter table="x_1128327_cake_offering">^RLQUERYx_1128327_cake_offerings_to_orders.offering,&gt;=1^order.stateNOT IN10,50^ENDRLQUERY</filter>
+        <field_list>add_on,offering,quantity</field_list>
+        <filter/>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -101,21 +101,21 @@
         <source_type>table</source_type>
         <start_time/>
         <style_config/>
-        <sumfield>add_on_price</sumfield>
+        <sumfield>quantity</sumfield>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>reece.poulsen</sys_created_by>
         <sys_created_on>2024-03-23 01:14:14</sys_created_on>
         <sys_id>3fef35ae470942105e94ae4b116d4328</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Orders: Add-on Costs</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Total Add-on Cost</sys_name>
         <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
         <sys_update_name>sys_report_3fef35ae470942105e94ae4b116d4328</sys_update_name>
         <sys_updated_by>reece.poulsen</sys_updated_by>
-        <sys_updated_on>2024-03-23 01:45:16</sys_updated_on>
-        <table>x_1128327_cake_offering</table>
-        <title>Orders: Add-on Costs</title>
+        <sys_updated_on>2024-03-23 03:13:07</sys_updated_on>
+        <table>x_1128327_cake_add_ons_to_offerings</table>
+        <title>Total Add-on Cost</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
