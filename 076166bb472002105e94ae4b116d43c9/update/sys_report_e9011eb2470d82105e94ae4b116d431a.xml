@@ -45,17 +45,16 @@
         <donut_width_percent>30</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>due_at</field>
-        <field_list>number,name,contact,state,due_at,delivery,delivery_address,total_price,total_paid</field_list>
-        <filter table="x_1128327_cake_order">state=40<item display_value="Filled" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="40"/>
-        </filter>
-        <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
+        <field/>
+        <field_list>name,phone_number,email,customer</field_list>
+        <filter table="x_1128327_cake_contact">^RLQUERYx_1128327_cake_order.contact,&gt;=1^state=40^ENDRLQUERY</filter>
+        <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{"$COUNT_FIELD$,AGGREGATION":{"decimalPrecision":2,"groupingUsed":true,"roundingMode":"HALF_UP","metricPrefixSymbolUsed":false,"showOriginalNumberInTooltip":true,"addValueInTooltip":true}}}</formatting_configuration>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>true</gauge_autoscale>
         <group/>
         <import_table/>
-        <interval>month</interval>
+        <interval>year</interval>
         <is_published>false</is_published>
         <is_real_time>false</is_real_time>
         <is_scheduled>false</is_scheduled>
@@ -87,7 +86,7 @@
         <sc_stackby_variable_id/>
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
         <series_name_text/>
-        <set_color>color_palette</set_color>
+        <set_color>null</set_color>
         <show_chart_border>false</show_chart_border>
         <show_chart_data_label>false</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
@@ -98,30 +97,30 @@
         <show_legend>true</show_legend>
         <show_legend_border>false</show_legend_border>
         <show_marker>false</show_marker>
-        <show_zero>false</show_zero>
+        <show_zero>true</show_zero>
         <source_type>table</source_type>
         <start_time/>
         <style_config/>
         <sumfield/>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>reece.poulsen</sys_created_by>
-        <sys_created_on>2024-03-22 04:00:57</sys_created_on>
-        <sys_id>888c9d5a470502105e94ae4b116d43b7</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Filled Per Month</sys_name>
+        <sys_created_on>2024-03-23 21:07:23</sys_created_on>
+        <sys_id>e9011eb2470d82105e94ae4b116d431a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Customers</sys_name>
         <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
-        <sys_update_name>sys_report_888c9d5a470502105e94ae4b116d43b7</sys_update_name>
+        <sys_update_name>sys_report_e9011eb2470d82105e94ae4b116d431a</sys_update_name>
         <sys_updated_by>reece.poulsen</sys_updated_by>
-        <sys_updated_on>2024-03-23 21:11:59</sys_updated_on>
-        <table>x_1128327_cake_order</table>
-        <title>Filled Per Month</title>
+        <sys_updated_on>2024-03-23 21:07:43</sys_updated_on>
+        <table>x_1128327_cake_contact</table>
+        <title>Customers</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field>sys_created_on</trend_field>
-        <type>line_bar</type>
+        <trend_field/>
+        <type>single_score</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
         <use_null_in_trend>false</use_null_in_trend>
