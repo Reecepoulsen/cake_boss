@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Pricing" section_id="07b89cad473842105e94ae4b116d438f" sys_domain="global" table="x_1128327_cake_offering" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>add_on_price</element>
+            <element>good_cost</element>
             <position>0</position>
             <sys_created_by>reece.poulsen</sys_created_by>
-            <sys_created_on>2024-03-21 00:29:05</sys_created_on>
-            <sys_id>4b62eb75470102105e94ae4b116d4366</sys_id>
+            <sys_created_on>2024-03-23 01:21:23</sys_created_on>
+            <sys_id>ec9102a2474942105e94ae4b116d43c7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pricing" display_value="Pricing" name="x_1128327_cake_offering" sys_domain="global" view="Default view">07b89cad473842105e94ae4b116d438f</sys_ui_section>
             <sys_updated_by>reece.poulsen</sys_updated_by>
-            <sys_updated_on>2024-03-21 00:29:05</sys_updated_on>
+            <sys_updated_on>2024-03-23 01:21:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,55 +18,69 @@
             <element>good_price</element>
             <position>1</position>
             <sys_created_by>reece.poulsen</sys_created_by>
-            <sys_created_on>2024-03-21 00:29:05</sys_created_on>
-            <sys_id>cb62eb75470102105e94ae4b116d4366</sys_id>
+            <sys_created_on>2024-03-23 01:21:23</sys_created_on>
+            <sys_id>609102a2474942105e94ae4b116d43c8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pricing" display_value="Pricing" name="x_1128327_cake_offering" sys_domain="global" view="Default view">07b89cad473842105e94ae4b116d438f</sys_ui_section>
             <sys_updated_by>reece.poulsen</sys_updated_by>
-            <sys_updated_on>2024-03-21 00:29:05</sys_updated_on>
+            <sys_updated_on>2024-03-23 01:21:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>add_on_price</element>
+            <position>2</position>
+            <sys_created_by>reece.poulsen</sys_created_by>
+            <sys_created_on>2024-03-23 01:21:23</sys_created_on>
+            <sys_id>e09102a2474942105e94ae4b116d43c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pricing" display_value="Pricing" name="x_1128327_cake_offering" sys_domain="global" view="Default view">07b89cad473842105e94ae4b116d438f</sys_ui_section>
+            <sys_updated_by>reece.poulsen</sys_updated_by>
+            <sys_updated_on>2024-03-23 01:21:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>reece.poulsen</sys_created_by>
-            <sys_created_on>2024-03-21 00:29:05</sys_created_on>
-            <sys_id>4f62eb75470102105e94ae4b116d4366</sys_id>
+            <sys_created_on>2024-03-23 01:21:23</sys_created_on>
+            <sys_id>649102a2474942105e94ae4b116d43c8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pricing" display_value="Pricing" name="x_1128327_cake_offering" sys_domain="global" view="Default view">07b89cad473842105e94ae4b116d438f</sys_ui_section>
             <sys_updated_by>reece.poulsen</sys_updated_by>
-            <sys_updated_on>2024-03-21 00:29:05</sys_updated_on>
+            <sys_updated_on>2024-03-23 01:21:23</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>suggested_price</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>reece.poulsen</sys_created_by>
-            <sys_created_on>2024-03-21 00:29:05</sys_created_on>
-            <sys_id>cf62eb75470102105e94ae4b116d4366</sys_id>
+            <sys_created_on>2024-03-23 01:21:23</sys_created_on>
+            <sys_id>e49102a2474942105e94ae4b116d43c8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pricing" display_value="Pricing" name="x_1128327_cake_offering" sys_domain="global" view="Default view">07b89cad473842105e94ae4b116d438f</sys_ui_section>
             <sys_updated_by>reece.poulsen</sys_updated_by>
-            <sys_updated_on>2024-03-21 00:29:05</sys_updated_on>
+            <sys_updated_on>2024-03-23 01:21:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>total_price</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>reece.poulsen</sys_created_by>
-            <sys_created_on>2024-03-21 00:29:05</sys_created_on>
-            <sys_id>4362eb75470102105e94ae4b116d4367</sys_id>
+            <sys_created_on>2024-03-23 01:21:23</sys_created_on>
+            <sys_id>689102a2474942105e94ae4b116d43c8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pricing" display_value="Pricing" name="x_1128327_cake_offering" sys_domain="global" view="Default view">07b89cad473842105e94ae4b116d438f</sys_ui_section>
             <sys_updated_by>reece.poulsen</sys_updated_by>
-            <sys_updated_on>2024-03-21 00:29:05</sys_updated_on>
+            <sys_updated_on>2024-03-23 01:21:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
