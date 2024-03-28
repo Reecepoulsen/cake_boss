@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
     <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
         <profile display_value="cake-boss Search Profile">b50155daa3c102101a5693a456679f83</profile>
-        <search_source display_value="Ingredient">b30119da47c102105e94ae4b116d4391</search_source>
+        <search_source display_value="">b30119da47c102105e94ae4b116d4391</search_source>
         <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
         <sys_created_by>reece.poulsen</sys_created_by>
         <sys_created_on>2024-03-22 03:10:58</sys_created_on>

@@ -17,6 +17,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query>/$pa_dashboard.do?sysparm_dashboard=3fd1515e47c102105e94ae4b116d43a4&amp;sysparm_tab=aaf11d1e47c102105e94ae4b116d437f&amp;sysparm_cancelable=true&amp;sysparm_editable=undefined&amp;sysparm_active_panel=false</query>
         <report/>
+        <require_confirmation>false</require_confirmation>
         <roles>x_1128327_cake.admin,x_1128327_cake.user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>reece.poulsen</sys_created_by>

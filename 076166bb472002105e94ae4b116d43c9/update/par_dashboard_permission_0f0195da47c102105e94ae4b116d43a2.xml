@@ -5,6 +5,7 @@
         <can_write>true</can_write>
         <dashboard display_value="Cake Boss">350155da15c102104319c9be40629f7c</dashboard>
         <group/>
+        <owner>false</owner>
         <role/>
         <sys_class_name>par_dashboard_permission</sys_class_name>
         <sys_created_by>reece.poulsen</sys_created_by>
@@ -21,6 +22,6 @@
         <sys_update_name>par_dashboard_permission_0f0195da47c102105e94ae4b116d43a2</sys_update_name>
         <sys_updated_by>reece.poulsen</sys_updated_by>
         <sys_updated_on>2024-03-22 03:10:54</sys_updated_on>
-        <user display_value="Reece Poulsen">3bc9d841473b31105e94ae4b116d43a5</user>
+        <user display_value="Reece Poulsen">b469c336c3cd4210e930de1d05013150</user>
     </par_dashboard_permission>
 </record_update>

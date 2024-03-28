@@ -10,12 +10,13 @@
         <managed_breakdown/>
         <managed_publisher/>
         <name>Cake Boss</name>
+        <no_bulk_migration>false</no_bulk_migration>
         <no_tabs>false</no_tabs>
         <notification_link_label/>
         <notification_link_url/>
         <notification_text/>
         <order/>
-        <owner display_value="Reece Poulsen">3bc9d841473b31105e94ae4b116d43a5</owner>
+        <owner display_value="Reece Poulsen">b469c336c3cd4210e930de1d05013150</owner>
         <restrict_to_roles>x_1128327_cake.admin,x_1128327_cake.user</restrict_to_roles>
         <role_override>true</role_override>
         <roles/>

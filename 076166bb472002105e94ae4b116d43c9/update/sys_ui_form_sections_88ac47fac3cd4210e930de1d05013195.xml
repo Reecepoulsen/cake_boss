@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="88ac47fac3cd4210e930de1d05013195" sys_domain="global" table="x_1128327_cake_offering" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>reece.poulsen</sys_created_by>
+            <sys_created_on>2024-03-24 01:27:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44ac47fac3cd4210e930de1d05013196</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1128327_cake_offering" name="x_1128327_cake_offering" sys_domain="global" view="f50155dadec10210a95cbd451fcc4779">88ac47fac3cd4210e930de1d05013195</sys_ui_form>
+            <sys_ui_section caption="Pricing" display_value="Pricing" name="x_1128327_cake_offering" sys_domain="global" view="f50155dadec10210a95cbd451fcc4779">39111dda47c102105e94ae4b116d4333</sys_ui_section>
+            <sys_updated_by>reece.poulsen</sys_updated_by>
+            <sys_updated_on>2024-03-24 01:27:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>reece.poulsen</sys_created_by>
+            <sys_created_on>2024-03-24 01:27:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ccac47fac3cd4210e930de1d05013196</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1128327_cake_offering" name="x_1128327_cake_offering" sys_domain="global" view="f50155dadec10210a95cbd451fcc4779">88ac47fac3cd4210e930de1d05013195</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1128327_cake_offering" sys_domain="global" view="f50155dadec10210a95cbd451fcc4779">f1111dda47c102105e94ae4b116d4330</sys_ui_section>
+            <sys_updated_by>reece.poulsen</sys_updated_by>
+            <sys_updated_on>2024-03-24 01:27:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1128327_cake_offering</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>reece.poulsen</sys_created_by>
+            <sys_created_on>2024-03-24 01:27:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88ac47fac3cd4210e930de1d05013195</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1128327_cake_offering</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
+            <sys_update_name>sys_ui_form_sections_88ac47fac3cd4210e930de1d05013195</sys_update_name>
+            <sys_updated_by>reece.poulsen</sys_updated_by>
+            <sys_updated_on>2024-03-24 01:27:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Cake Boss 0" name="workspace-cake-boss-0">f50155dadec10210a95cbd451fcc4779</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

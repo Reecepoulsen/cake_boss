@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>true</disabled>
         <field>delivery_price</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>reece.poulsen</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2024-03-02 06:31:11</sys_updated_on>
         <table>x_1128327_cake_order</table>
         <ui_policy display_value="Delivery Checked - Show/Require Delivery Info">87ce767f47a002105e94ae4b116d43d6</ui_policy>
+        <value/>
+        <value_action/>
         <visible>true</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=520f767f47a002105e94ae4b116d43e1"/>
 </record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
     <sys_search_filter action="INSERT_OR_UPDATE">
         <active>true</active>
-        <ais_search_source display_value="Good">ff0119da47c102105e94ae4b116d4359</ais_search_source>
+        <ais_search_source display_value="">ff0119da47c102105e94ae4b116d4359</ais_search_source>
         <label>Good</label>
         <name>Good</name>
         <order>500</order>

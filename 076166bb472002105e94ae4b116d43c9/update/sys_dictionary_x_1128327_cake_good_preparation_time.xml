@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="preparation_time" table="x_1128327_cake_good">
         <active>true</active>
         <array>false</array>
-        <attributes>max_unit=hours</attributes>
+        <attributes>edge_encryption_enabled=true,max_unit=hours</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 

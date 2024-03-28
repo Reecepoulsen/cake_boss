@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="b056fa7347a002105e94ae4b116d4319" label="Ingredient" max_length="40" name="x_1128327_cake_ingredient" type="collection">
-        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element attributes="edge_encryption_enabled=true,pdf_cell_type=image" label="Image" max_length="40" name="image" type="user_image"/>
         <element display="true" label="Name" max_length="250" name="name" type="string"/>
-        <element label="Price" max_length="20" name="price" type="price"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price" max_length="20" name="price" type="price"/>
+        <index name="index">
+            <element name="name"/>
+        </index>
     </element>
 </database>

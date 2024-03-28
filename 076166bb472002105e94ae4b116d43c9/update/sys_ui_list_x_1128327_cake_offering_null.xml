@@ -3,77 +3,107 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_1128327_cake_offering" element="NULL" name="x_1128327_cake_offering" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">271a5c21477842105e94ae4b116d434b</list_id>
+            <list_id display_value="x_1128327_cake_offering" element="NULL" name="x_1128327_cake_offering" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">943e0bbec3cd4210e930de1d0501314a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>reece.poulsen</sys_created_by>
-            <sys_created_on>2024-03-07 04:59:46</sys_created_on>
-            <sys_id>e31a5c21477842105e94ae4b116d434c</sys_id>
+            <sys_created_by>sadie.wach</sys_created_by>
+            <sys_created_on>2024-03-24 01:34:38</sys_created_on>
+            <sys_id>dc3e0bbec3cd4210e930de1d0501314a</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>reece.poulsen</sys_updated_by>
-            <sys_updated_on>2024-03-07 04:59:46</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>good_price</element>
-            <list_id display_value="x_1128327_cake_offering" element="NULL" name="x_1128327_cake_offering" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">271a5c21477842105e94ae4b116d434b</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>1</position>
-            <sum>false</sum>
-            <sys_created_by>reece.poulsen</sys_created_by>
-            <sys_created_on>2024-03-07 04:59:46</sys_created_on>
-            <sys_id>6b1a5c21477842105e94ae4b116d434c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>reece.poulsen</sys_updated_by>
-            <sys_updated_on>2024-03-07 04:59:46</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>good_price_modifier</element>
-            <list_id display_value="x_1128327_cake_offering" element="NULL" name="x_1128327_cake_offering" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">271a5c21477842105e94ae4b116d434b</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>2</position>
-            <sum>false</sum>
-            <sys_created_by>reece.poulsen</sys_created_by>
-            <sys_created_on>2024-03-07 04:59:46</sys_created_on>
-            <sys_id>eb1a5c21477842105e94ae4b116d434c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>reece.poulsen</sys_updated_by>
-            <sys_updated_on>2024-03-07 04:59:46</sys_updated_on>
+            <sys_updated_by>sadie.wach</sys_updated_by>
+            <sys_updated_on>2024-03-24 01:34:38</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>add_on_price</element>
-            <list_id display_value="x_1128327_cake_offering" element="NULL" name="x_1128327_cake_offering" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">271a5c21477842105e94ae4b116d434b</list_id>
+            <list_id display_value="x_1128327_cake_offering" element="NULL" name="x_1128327_cake_offering" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">943e0bbec3cd4210e930de1d0501314a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>sadie.wach</sys_created_by>
+            <sys_created_on>2024-03-24 01:34:38</sys_created_on>
+            <sys_id>503e0bbec3cd4210e930de1d0501314b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sadie.wach</sys_updated_by>
+            <sys_updated_on>2024-03-24 01:34:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>good_price</element>
+            <list_id display_value="x_1128327_cake_offering" element="NULL" name="x_1128327_cake_offering" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">943e0bbec3cd4210e930de1d0501314a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>sadie.wach</sys_created_by>
+            <sys_created_on>2024-03-24 01:34:38</sys_created_on>
+            <sys_id>d03e0bbec3cd4210e930de1d0501314b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sadie.wach</sys_updated_by>
+            <sys_updated_on>2024-03-24 01:34:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ingredient_cost</element>
+            <list_id display_value="x_1128327_cake_offering" element="NULL" name="x_1128327_cake_offering" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">943e0bbec3cd4210e930de1d0501314a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
-            <sys_created_by>reece.poulsen</sys_created_by>
-            <sys_created_on>2024-03-07 04:59:46</sys_created_on>
-            <sys_id>6f1a5c21477842105e94ae4b116d434c</sys_id>
+            <sys_created_by>sadie.wach</sys_created_by>
+            <sys_created_on>2024-03-24 01:34:38</sys_created_on>
+            <sys_id>543e0bbec3cd4210e930de1d0501314b</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>reece.poulsen</sys_updated_by>
-            <sys_updated_on>2024-03-07 04:59:46</sys_updated_on>
+            <sys_updated_by>sadie.wach</sys_updated_by>
+            <sys_updated_on>2024-03-24 01:34:38</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>total_price</element>
-            <list_id display_value="x_1128327_cake_offering" element="NULL" name="x_1128327_cake_offering" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">271a5c21477842105e94ae4b116d434b</list_id>
+            <element>preparation_cost</element>
+            <list_id display_value="x_1128327_cake_offering" element="NULL" name="x_1128327_cake_offering" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">943e0bbec3cd4210e930de1d0501314a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
-            <sys_created_by>reece.poulsen</sys_created_by>
-            <sys_created_on>2024-03-07 04:59:46</sys_created_on>
-            <sys_id>ef1a5c21477842105e94ae4b116d434c</sys_id>
+            <sys_created_by>sadie.wach</sys_created_by>
+            <sys_created_on>2024-03-24 01:34:38</sys_created_on>
+            <sys_id>d43e0bbec3cd4210e930de1d0501314b</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>reece.poulsen</sys_updated_by>
-            <sys_updated_on>2024-03-07 04:59:46</sys_updated_on>
+            <sys_updated_by>sadie.wach</sys_updated_by>
+            <sys_updated_on>2024-03-24 01:34:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>suggested_price</element>
+            <list_id display_value="x_1128327_cake_offering" element="NULL" name="x_1128327_cake_offering" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">943e0bbec3cd4210e930de1d0501314a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>sadie.wach</sys_created_by>
+            <sys_created_on>2024-03-24 01:34:38</sys_created_on>
+            <sys_id>583e0bbec3cd4210e930de1d0501314b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sadie.wach</sys_updated_by>
+            <sys_updated_on>2024-03-24 01:34:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>total_price</element>
+            <list_id display_value="x_1128327_cake_offering" element="NULL" name="x_1128327_cake_offering" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">943e0bbec3cd4210e930de1d0501314a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>sadie.wach</sys_created_by>
+            <sys_created_on>2024-03-24 01:34:38</sys_created_on>
+            <sys_id>d83e0bbec3cd4210e930de1d0501314b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sadie.wach</sys_updated_by>
+            <sys_updated_on>2024-03-24 01:34:38</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -86,19 +116,19 @@
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>reece.poulsen</sys_created_by>
-            <sys_created_on>2024-03-07 04:59:46</sys_created_on>
+            <sys_created_by>sadie.wach</sys_created_by>
+            <sys_created_on>2024-03-24 01:34:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>271a5c21477842105e94ae4b116d434b</sys_id>
+            <sys_id>943e0bbec3cd4210e930de1d0501314a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1128327_cake_offering</sys_name>
             <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
             <sys_policy/>
             <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
             <sys_update_name>sys_ui_list_x_1128327_cake_offering_null</sys_update_name>
-            <sys_updated_by>reece.poulsen</sys_updated_by>
-            <sys_updated_on>2024-03-07 04:59:46</sys_updated_on>
+            <sys_updated_by>sadie.wach</sys_updated_by>
+            <sys_updated_on>2024-03-24 01:34:38</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

@@ -6,7 +6,7 @@
         <color_id display_value="Red">65b30395a9fe3dba003277a7b660b5db</color_id>
         <operator>&gt;</operator>
         <order>1</order>
-        <report_id display_value="Orders Not Paid">4df5d552470502105e94ae4b116d433e</report_id>
+        <report_id display_value="Filled Not Paid">4df5d552470502105e94ae4b116d433e</report_id>
         <sys_class_name>sys_report_mpivot_rule</sys_class_name>
         <sys_created_by>reece.poulsen</sys_created_by>
         <sys_created_on>2024-03-22 03:33:21</sys_created_on>

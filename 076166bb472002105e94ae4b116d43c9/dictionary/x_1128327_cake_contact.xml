@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a8367a7347a002105e94ae4b116d4357" label="Contact" max_length="40" name="x_1128327_cake_contact" type="collection">
-        <element label="Customer" max_length="40" name="customer" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer" max_length="40" name="customer" read_only="true" type="boolean"/>
         <element label="Email" max_length="50" name="email" type="string"/>
         <element display="true" label="Name" mandatory="true" max_length="50" name="name" type="string"/>
         <element label="Phone number" max_length="40" name="phone_number" type="string"/>
+        <index name="index">
+            <element name="name"/>
+        </index>
     </element>
 </database>

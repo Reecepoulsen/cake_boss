@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="9331927447b002105e94ae4b116d43fc" label="Ingredients to Goods" max_length="40" name="x_1128327_cake_ingredients_to_goods" type="collection">
-        <element label="Good" max_length="32" name="good" read_only="true" reference="x_1128327_cake_good" reference_cascade_rule="delete" type="reference"/>
-        <element label="Ingredient" mandatory="true" max_length="32" name="ingredient" reference="x_1128327_cake_ingredient" reference_cascade_rule="delete" type="reference"/>
-        <element default="1" label="Quantity" max_length="20" name="quantity" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Good" max_length="32" name="good" read_only="true" reference="x_1128327_cake_good" reference_cascade_rule="delete" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Ingredient" mandatory="true" max_length="32" name="ingredient" reference="x_1128327_cake_ingredient" reference_cascade_rule="delete" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="1" label="Quantity" max_length="20" name="quantity" type="decimal"/>
         <index name="index">
             <element name="good"/>
         </index>

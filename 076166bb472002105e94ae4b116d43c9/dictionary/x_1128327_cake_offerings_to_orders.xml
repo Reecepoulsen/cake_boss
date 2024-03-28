@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="55901a3447b002105e94ae4b116d4379" label="Offerings to Orders" max_length="40" name="x_1128327_cake_offerings_to_orders" type="collection">
-        <element label="Offering" mandatory="true" max_length="32" name="offering" reference="x_1128327_cake_offering" reference_cascade_rule="delete" type="reference"/>
-        <element label="Order" max_length="32" name="order" read_only="true" reference="x_1128327_cake_order" reference_cascade_rule="delete" type="reference"/>
-        <element default="1" label="Quantity" max_length="20" name="quantity" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Offering" mandatory="true" max_length="32" name="offering" reference="x_1128327_cake_offering" reference_cascade_rule="delete" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Order" max_length="32" name="order" read_only="true" reference="x_1128327_cake_order" reference_cascade_rule="delete" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="1" label="Quantity" max_length="20" name="quantity" type="decimal"/>
         <index name="index">
             <element name="offering"/>
         </index>

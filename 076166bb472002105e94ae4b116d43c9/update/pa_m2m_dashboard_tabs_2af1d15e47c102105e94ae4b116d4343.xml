@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
     <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
-        <dashboard display_value="Cake Boss Overview">3fd1515e47c102105e94ae4b116d43a4</dashboard>
+        <dashboard display_value="Cake Boss">3fd1515e47c102105e94ae4b116d43a4</dashboard>
         <home>false</home>
         <homepage/>
         <order>1</order>

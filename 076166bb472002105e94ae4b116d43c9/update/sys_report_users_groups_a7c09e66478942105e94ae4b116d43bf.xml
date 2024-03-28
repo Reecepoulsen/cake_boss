@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
-        <group_id display_value="Cake Boss Admins" name="Cake Boss Admins">520ee552478502105e94ae4b116d4380</group_id>
-        <report_id display_value="Orders: Ingredient Cost">e7b0de26478942105e94ae4b116d4385</report_id>
+        <group_id display_value="">520ee552478502105e94ae4b116d4380</group_id>
+        <report_id display_value="Total Ingredient Cost">e7b0de26478942105e94ae4b116d4385</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>reece.poulsen</sys_created_by>
         <sys_created_on>2024-03-23 02:27:57</sys_created_on>

@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>true</disabled>
         <field>name</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>reece.poulsen</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2024-03-23 00:54:09</sys_updated_on>
         <table>x_1128327_cake_settings</table>
         <ui_policy display_value="Settings: Disallow Name Changes">3d1b316a470942105e94ae4b116d4353</ui_policy>
+        <value/>
+        <value_action/>
         <visible>ignore</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=f64b356a470942105e94ae4b116d4383"/>
 </record_update>

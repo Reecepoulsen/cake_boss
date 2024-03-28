@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>false</disabled>
         <field>contact</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>reece.poulsen</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2024-03-12 05:07:52</sys_updated_on>
         <table>x_1128327_cake_order</table>
         <ui_policy display_value="Allow Edit of Order Values in Draft State">f9744b7747e002105e94ae4b116d435e</ui_policy>
+        <value/>
+        <value_action/>
         <visible>ignore</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=83db020b47b002105e94ae4b116d43dd"/>
 </record_update>

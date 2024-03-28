@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
     <sys_search_filter action="INSERT_OR_UPDATE">
         <active>true</active>
-        <ais_search_source display_value="Ingredients to Goods">4c1119da47c102105e94ae4b116d43ad</ais_search_source>
+        <ais_search_source display_value="">4c1119da47c102105e94ae4b116d43ad</ais_search_source>
         <label>Ingredients to Goods</label>
         <name>Ingredients to Goods</name>
         <order>800</order>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
     <sys_search_filter action="INSERT_OR_UPDATE">
         <active>true</active>
-        <ais_search_source display_value="Add-ons to Offerings">e30119da47c102105e94ae4b116d4314</ais_search_source>
+        <ais_search_source display_value="">e30119da47c102105e94ae4b116d4314</ais_search_source>
         <label>Add-ons to Offerings</label>
         <name>Add-ons to Offerings</name>
         <order>200</order>
