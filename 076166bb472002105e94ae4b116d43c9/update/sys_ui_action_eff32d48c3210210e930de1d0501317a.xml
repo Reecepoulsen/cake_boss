@@ -30,61 +30,59 @@
         <name>Refresh Data</name>
         <onclick/>
         <order>0</order>
-        <script><![CDATA[const goodToOfferingGR = new GlideRecord("x_1128327_cake_goods_to_offerings");
-goodToOfferingGR.addQuery("offering", current.getValue("sys_id"));
-goodToOfferingGR.query();
+        <script><![CDATA[// Refresh all prices
+// total_price = (base_price + delivery_price + additional_cost) - discount_amount 
+// base_price = sum of all of the offerings x quantity
+const orderGR = current;
+const offeringsToOrders = new GlideRecord("x_1128327_cake_offerings_to_orders");
+offeringsToOrders.addQuery("order", orderGR.getValue("sys_id"));
+offeringsToOrders.query();
 
-let goodPrice = 0;
-let preparationCost = 0;
-let ingredientCost = 0;
-while (goodToOfferingGR.next()) {
-	const goodGR = goodToOfferingGR.good.getRefRecord();
-	const price = parseFloat(goodGR.getValue("price"));
-	const prepCost = parseFloat(goodGR.getValue("preparation_cost"));
-	const ingCost = parseFloat(goodGR.getValue("ingredient_cost"));
-	const qty = parseInt(goodToOfferingGR.getValue("quantity"));
-	goodPrice += price * qty;
-	preparationCost += prepCost * qty;
-	ingredientCost += ingCost * qty;
+// Recalculate the base price
+var basePrice = 0;
+while(offeringsToOrders.next()) {
+	const offeringPrice = parseFloat(offeringsToOrders.offering.total_price + "");
+	const qty = parseInt(offeringsToOrders.getValue("quantity"));
+	basePrice += offeringPrice * qty;
 }
-current.good_price = goodPrice.toFixed(2);
-current.ingredient_cost = ingredientCost.toFixed(2);
-current.preparation_cost = preparationCost.toFixed(2);
+orderGR.basePrice = basePrice.toFixed(2);
 
-const addOnToOfferingGR = new GlideRecord("x_1128327_cake_add_ons_to_offerings");
-addOnToOfferingGR.addQuery("offering", current.getValue("sys_id"));
-addOnToOfferingGR.query();
-
-let totalAddOnPrice = 0;
-while (addOnToOfferingGR.next()) {
-	const addOnPrice = parseFloat(addOnToOfferingGR.add_on.price + "");
-	const qty = parseInt(addOnToOfferingGR.getValue("quantity"));
-	totalAddOnPrice += addOnPrice * qty;
+// Recalculate the delivery price if this is a delivery and the 'Charge per mile' setting exists
+var deliveryPrice = 0;
+const settingGR = new GlideRecord("x_1128327_cake_settings");
+if (orderGR.getValue("delivery") == "1" && settingGR.get("name", "Charge per mile")) {
+	const miles = parseFloat(orderGR.getValue("miles"));
+	const pricePerMile = parseFloat(settingGR.getValue("value"));
+	deliveryPrice = miles * pricePerMile;
+	orderGR.delivery_price = deliveryPrice.toFixed(2);
 }
-current.add_on_price = totalAddOnPrice.toFixed(2);
-current.suggested_price = (goodPrice + totalAddOnPrice).toFixed(2);
-current.update();
-action.setRedirectURL(current);]]></script>
+
+// Set the total_price
+const addCost = parseFloat(orderGR.getValue("additional_cost"));
+const discAmount = parseFloat(orderGR.getValue("discount_amount"));
+orderGR.total_price = ((basePrice + deliveryPrice + addCost) - discAmount).toFixed(2);
+orderGR.update();
+action.setRedirectURL(orderGR);]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
         <show_update>true</show_update>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>reece.poulsen</sys_created_by>
-        <sys_created_on>2024-03-23 22:26:33</sys_created_on>
+        <sys_created_on>2024-04-09 01:18:45</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>623162b6474d82105e94ae4b116d43ff</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_id>eff32d48c3210210e930de1d0501317a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Refresh Data</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
-        <sys_update_name>sys_ui_action_623162b6474d82105e94ae4b116d43ff</sys_update_name>
+        <sys_update_name>sys_ui_action_eff32d48c3210210e930de1d0501317a</sys_update_name>
         <sys_updated_by>reece.poulsen</sys_updated_by>
-        <sys_updated_on>2024-04-09 02:12:29</sys_updated_on>
-        <table>x_1128327_cake_offering</table>
+        <sys_updated_on>2024-04-09 02:13:01</sys_updated_on>
+        <table>x_1128327_cake_order</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
     </sys_ui_action>
