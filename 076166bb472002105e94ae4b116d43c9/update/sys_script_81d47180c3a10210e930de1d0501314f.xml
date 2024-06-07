@@ -18,7 +18,7 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message><![CDATA[<p>The price of a good cannot be $0.00</p>]]></message>
-        <name>Offering - Good Non-zero Price</name>
+        <name>Good - Non-zero Price</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -38,15 +38,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>81d47180c3a10210e930de1d0501314f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Offering - Good Non-zero Price</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Good - Non-zero Price</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cake Boss" source="x_1128327_cake">076166bb472002105e94ae4b116d43c9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cake Boss">076166bb472002105e94ae4b116d43c9</sys_scope>
         <sys_update_name>sys_script_81d47180c3a10210e930de1d0501314f</sys_update_name>
         <sys_updated_by>reece.poulsen</sys_updated_by>
-        <sys_updated_on>2024-04-09 02:32:18</sys_updated_on>
+        <sys_updated_on>2024-04-09 04:14:56</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
